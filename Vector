@@ -1,0 +1,44 @@
+#include <iostream>
+# include <stdlib.h>
+using namespace std;
+
+int main() {
+    int op,cargar;
+
+cout<<"MENU:"<<endl;
+cout<<"1.cargar"<<endl ;
+cout<<"2.mostrar"<<endl;
+cout<<"3.salir"<<endl;
+
+cin>>op;
+int V[5],c,a;
+
+switch(op)
+{
+case 1:
+cout<<endl;
+for(c=0;c<=4;c++){
+cout<<"V["<<c+1<<"]:";
+cin>>V[c];
+cargar=V[c];
+}
+break;
+case 2:
+ for(c=0;c<=4;c++){
+cout<<"V["<<c+1<<"]:";
+cin>>V[c];
+cargar=V[c];
+}    
+     cout<<"el vectr es:"<<endl;
+for(a=0;a<5;a++)
+cout<<V[a]<<" ";
+     
+break;
+case 3:
+     cout<<"salir";
+     
+     }
+     
+     system("pause");
+return 0;
+}
