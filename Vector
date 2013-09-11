@@ -18,7 +18,7 @@ switch(op)
 case 1:
 cout<<endl;
 for(c=0;c<=4;c++){
-cout<<"V["<<c+1<<"]:";
+cout<<"V["<<c+1<<"]:"; jajajaja lo dañe jejjejejej
 cin>>V[c];
 cargar=V[c];
 }
